@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53F3FFA290A78690010712C /* KeduApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F3FF9290A78690010712C /* KeduApp.swift */; };
+		A53F3FFC290A78690010712C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F3FFB290A78690010712C /* ContentView.swift */; };
+		A53F3FFE290A786A0010712C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53F3FFD290A786A0010712C /* Assets.xcassets */; };
+		A53F4002290A786A0010712C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53F4001290A786A0010712C /* Preview Assets.xcassets */; };
+		A53F400C290A786A0010712C /* KeduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F400B290A786A0010712C /* KeduTests.swift */; };
+		A53F4016290A786A0010712C /* KeduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F4015290A786A0010712C /* KeduUITests.swift */; };
+		A53F4018290A786A0010712C /* KeduUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F4017290A786A0010712C /* KeduUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53F4008290A786A0010712C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53F3FEE290A78690010712C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53F3FF5290A78690010712C;
+			remoteInfo = Kedu;
+		};
+		A53F4012290A786A0010712C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53F3FEE290A78690010712C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53F3FF5290A78690010712C;
+			remoteInfo = Kedu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53F3FF6290A78690010712C /* Kedu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kedu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53F3FF9290A78690010712C /* KeduApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeduApp.swift; sourceTree = "<group>"; };
+		A53F3FFB290A78690010712C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A53F3FFD290A786A0010712C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53F3FFF290A786A0010712C /* Kedu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kedu.entitlements; sourceTree = "<group>"; };
+		A53F4001290A786A0010712C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A53F4007290A786A0010712C /* KeduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53F400B290A786A0010712C /* KeduTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeduTests.swift; sourceTree = "<group>"; };
+		A53F4011290A786A0010712C /* KeduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53F4015290A786A0010712C /* KeduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeduUITests.swift; sourceTree = "<group>"; };
+		A53F4017290A786A0010712C /* KeduUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeduUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53F3FF3290A78690010712C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F4004290A786A0010712C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F400E290A786A0010712C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53F3FED290A78690010712C = {
+			isa = PBXGroup;
+			children = (
+				A53F3FF8290A78690010712C /* Kedu */,
+				A53F400A290A786A0010712C /* KeduTests */,
+				A53F4014290A786A0010712C /* KeduUITests */,
+				A53F3FF7290A78690010712C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53F3FF7290A78690010712C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53F3FF6290A78690010712C /* Kedu.app */,
+				A53F4007290A786A0010712C /* KeduTests.xctest */,
+				A53F4011290A786A0010712C /* KeduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53F3FF8290A78690010712C /* Kedu */ = {
+			isa = PBXGroup;
+			children = (
+				A53F3FF9290A78690010712C /* KeduApp.swift */,
+				A53F3FFB290A78690010712C /* ContentView.swift */,
+				A53F3FFD290A786A0010712C /* Assets.xcassets */,
+				A53F3FFF290A786A0010712C /* Kedu.entitlements */,
+				A53F4000290A786A0010712C /* Preview Content */,
+			);
+			path = Kedu;
+			sourceTree = "<group>";
+		};
+		A53F4000290A786A0010712C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A53F4001290A786A0010712C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A53F400A290A786A0010712C /* KeduTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53F400B290A786A0010712C /* KeduTests.swift */,
+			);
+			path = KeduTests;
+			sourceTree = "<group>";
+		};
+		A53F4014290A786A0010712C /* KeduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A53F4015290A786A0010712C /* KeduUITests.swift */,
+				A53F4017290A786A0010712C /* KeduUITestsLaunchTests.swift */,
+			);
+			path = KeduUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53F3FF5290A78690010712C /* Kedu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53F401B290A786A0010712C /* Build configuration list for PBXNativeTarget "Kedu" */;
+			buildPhases = (
+				A53F3FF2290A78690010712C /* Sources */,
+				A53F3FF3290A78690010712C /* Frameworks */,
+				A53F3FF4290A78690010712C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kedu;
+			productName = Kedu;
+			productReference = A53F3FF6290A78690010712C /* Kedu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53F4006290A786A0010712C /* KeduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53F401E290A786A0010712C /* Build configuration list for PBXNativeTarget "KeduTests" */;
+			buildPhases = (
+				A53F4003290A786A0010712C /* Sources */,
+				A53F4004290A786A0010712C /* Frameworks */,
+				A53F4005290A786A0010712C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53F4009290A786A0010712C /* PBXTargetDependency */,
+			);
+			name = KeduTests;
+			productName = KeduTests;
+			productReference = A53F4007290A786A0010712C /* KeduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A53F4010290A786A0010712C /* KeduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53F4021290A786A0010712C /* Build configuration list for PBXNativeTarget "KeduUITests" */;
+			buildPhases = (
+				A53F400D290A786A0010712C /* Sources */,
+				A53F400E290A786A0010712C /* Frameworks */,
+				A53F400F290A786A0010712C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53F4013290A786A0010712C /* PBXTargetDependency */,
+			);
+			name = KeduUITests;
+			productName = KeduUITests;
+			productReference = A53F4011290A786A0010712C /* KeduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53F3FEE290A78690010712C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A53F3FF5290A78690010712C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A53F4006290A786A0010712C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A53F3FF5290A78690010712C;
+					};
+					A53F4010290A786A0010712C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A53F3FF5290A78690010712C;
+					};
+				};
+			};
+			buildConfigurationList = A53F3FF1290A78690010712C /* Build configuration list for PBXProject "Kedu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53F3FED290A78690010712C;
+			productRefGroup = A53F3FF7290A78690010712C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53F3FF5290A78690010712C /* Kedu */,
+				A53F4006290A786A0010712C /* KeduTests */,
+				A53F4010290A786A0010712C /* KeduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53F3FF4290A78690010712C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F4002290A786A0010712C /* Preview Assets.xcassets in Resources */,
+				A53F3FFE290A786A0010712C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F4005290A786A0010712C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F400F290A786A0010712C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53F3FF2290A78690010712C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F3FFC290A78690010712C /* ContentView.swift in Sources */,
+				A53F3FFA290A78690010712C /* KeduApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F4003290A786A0010712C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F400C290A786A0010712C /* KeduTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F400D290A786A0010712C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F4016290A786A0010712C /* KeduUITests.swift in Sources */,
+				A53F4018290A786A0010712C /* KeduUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53F4009290A786A0010712C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53F3FF5290A78690010712C /* Kedu */;
+			targetProxy = A53F4008290A786A0010712C /* PBXContainerItemProxy */;
+		};
+		A53F4013290A786A0010712C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53F3FF5290A78690010712C /* Kedu */;
+			targetProxy = A53F4012290A786A0010712C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A53F4019290A786A0010712C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A53F401A290A786A0010712C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A53F401C290A786A0010712C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kedu/Kedu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kedu/Preview Content\"";
+				DEVELOPMENT_TEAM = W2Z6D3A7F8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.Kedu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A53F401D290A786A0010712C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kedu/Kedu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kedu/Preview Content\"";
+				DEVELOPMENT_TEAM = W2Z6D3A7F8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.Kedu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A53F401F290A786A0010712C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2Z6D3A7F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.KeduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kedu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kedu";
+			};
+			name = Debug;
+		};
+		A53F4020290A786A0010712C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2Z6D3A7F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.KeduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kedu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kedu";
+			};
+			name = Release;
+		};
+		A53F4022290A786A0010712C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2Z6D3A7F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.KeduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kedu;
+			};
+			name = Debug;
+		};
+		A53F4023290A786A0010712C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2Z6D3A7F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.KeduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kedu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53F3FF1290A78690010712C /* Build configuration list for PBXProject "Kedu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53F4019290A786A0010712C /* Debug */,
+				A53F401A290A786A0010712C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53F401B290A786A0010712C /* Build configuration list for PBXNativeTarget "Kedu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53F401C290A786A0010712C /* Debug */,
+				A53F401D290A786A0010712C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53F401E290A786A0010712C /* Build configuration list for PBXNativeTarget "KeduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53F401F290A786A0010712C /* Debug */,
+				A53F4020290A786A0010712C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53F4021290A786A0010712C /* Build configuration list for PBXNativeTarget "KeduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53F4022290A786A0010712C /* Debug */,
+				A53F4023290A786A0010712C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53F3FEE290A78690010712C /* Project object */;
+}
