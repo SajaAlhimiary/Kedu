@@ -14,6 +14,14 @@
 		A53F400C290A786A0010712C /* KeduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F400B290A786A0010712C /* KeduTests.swift */; };
 		A53F4016290A786A0010712C /* KeduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F4015290A786A0010712C /* KeduUITests.swift */; };
 		A53F4018290A786A0010712C /* KeduUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F4017290A786A0010712C /* KeduUITestsLaunchTests.swift */; };
+		A53F4029290E74560010712C /* StoryTitlePage_letsBeFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F4028290E74560010712C /* StoryTitlePage_letsBeFriends.swift */; };
+		A53F402B290E79140010712C /* letsBeFriends_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F402A290E79140010712C /* letsBeFriends_1.swift */; };
+		A5BDB822290E80F100BE64CC /* letsBeFriends_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDB821290E80F100BE64CC /* letsBeFriends_2.swift */; };
+		A5BDB824290E818100BE64CC /* letsBeFriends_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDB823290E818100BE64CC /* letsBeFriends_3.swift */; };
+		A5BDB826290E81D800BE64CC /* letsBeFriends_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDB825290E81D800BE64CC /* letsBeFriends_4.swift */; };
+		A5BDB828290E821900BE64CC /* letsBeFriends_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDB827290E821900BE64CC /* letsBeFriends_5.swift */; };
+		A5BDB82A290E826D00BE64CC /* letsBeFriends_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDB829290E826D00BE64CC /* letsBeFriends_6.swift */; };
+		A5BDB82F290FB6BC00BE64CC /* watchStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDB82E290FB6BC00BE64CC /* watchStory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		A53F4011290A786A0010712C /* KeduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53F4015290A786A0010712C /* KeduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeduUITests.swift; sourceTree = "<group>"; };
 		A53F4017290A786A0010712C /* KeduUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeduUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A53F4028290E74560010712C /* StoryTitlePage_letsBeFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTitlePage_letsBeFriends.swift; sourceTree = "<group>"; };
+		A53F402A290E79140010712C /* letsBeFriends_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsBeFriends_1.swift; sourceTree = "<group>"; };
+		A5BDB821290E80F100BE64CC /* letsBeFriends_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsBeFriends_2.swift; sourceTree = "<group>"; };
+		A5BDB823290E818100BE64CC /* letsBeFriends_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsBeFriends_3.swift; sourceTree = "<group>"; };
+		A5BDB825290E81D800BE64CC /* letsBeFriends_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsBeFriends_4.swift; sourceTree = "<group>"; };
+		A5BDB827290E821900BE64CC /* letsBeFriends_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsBeFriends_5.swift; sourceTree = "<group>"; };
+		A5BDB829290E826D00BE64CC /* letsBeFriends_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsBeFriends_6.swift; sourceTree = "<group>"; };
+		A5BDB82E290FB6BC00BE64CC /* watchStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +111,9 @@
 		A53F3FF8290A78690010712C /* Kedu */ = {
 			isa = PBXGroup;
 			children = (
+				A5BDB82D290E832700BE64CC /* YourMagicLight */,
+				A5BDB82C290E830A00BE64CC /* OllieIsScared */,
+				A5BDB82B290E829800BE64CC /* LetsBeFriends */,
 				A53F3FF9290A78690010712C /* KeduApp.swift */,
 				A53F3FFB290A78690010712C /* ContentView.swift */,
 				A53F3FFD290A786A0010712C /* Assets.xcassets */,
@@ -127,6 +146,35 @@
 				A53F4017290A786A0010712C /* KeduUITestsLaunchTests.swift */,
 			);
 			path = KeduUITests;
+			sourceTree = "<group>";
+		};
+		A5BDB82B290E829800BE64CC /* LetsBeFriends */ = {
+			isa = PBXGroup;
+			children = (
+				A53F4028290E74560010712C /* StoryTitlePage_letsBeFriends.swift */,
+				A53F402A290E79140010712C /* letsBeFriends_1.swift */,
+				A5BDB821290E80F100BE64CC /* letsBeFriends_2.swift */,
+				A5BDB823290E818100BE64CC /* letsBeFriends_3.swift */,
+				A5BDB825290E81D800BE64CC /* letsBeFriends_4.swift */,
+				A5BDB827290E821900BE64CC /* letsBeFriends_5.swift */,
+				A5BDB829290E826D00BE64CC /* letsBeFriends_6.swift */,
+				A5BDB82E290FB6BC00BE64CC /* watchStory.swift */,
+			);
+			path = LetsBeFriends;
+			sourceTree = "<group>";
+		};
+		A5BDB82C290E830A00BE64CC /* OllieIsScared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OllieIsScared;
+			sourceTree = "<group>";
+		};
+		A5BDB82D290E832700BE64CC /* YourMagicLight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YourMagicLight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BDB82A290E826D00BE64CC /* letsBeFriends_6.swift in Sources */,
+				A53F4029290E74560010712C /* StoryTitlePage_letsBeFriends.swift in Sources */,
+				A5BDB822290E80F100BE64CC /* letsBeFriends_2.swift in Sources */,
+				A5BDB824290E818100BE64CC /* letsBeFriends_3.swift in Sources */,
 				A53F3FFC290A78690010712C /* ContentView.swift in Sources */,
+				A5BDB826290E81D800BE64CC /* letsBeFriends_4.swift in Sources */,
+				A53F402B290E79140010712C /* letsBeFriends_1.swift in Sources */,
+				A5BDB828290E821900BE64CC /* letsBeFriends_5.swift in Sources */,
 				A53F3FFA290A78690010712C /* KeduApp.swift in Sources */,
+				A5BDB82F290FB6BC00BE64CC /* watchStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
