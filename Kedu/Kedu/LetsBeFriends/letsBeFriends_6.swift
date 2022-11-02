@@ -24,13 +24,13 @@ struct letsBeFriends_6: View {
                             .shadow(radius: 10)
                         VStack{
                             HStack{
-                                Image("21")
+                                Image("LetsBeFriends_21")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
                                     .shadow(radius: 20)
                                     .padding(.leading, 80)
-                                Image("22")
+                                Image("LetsBeFriends_22")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -38,13 +38,13 @@ struct letsBeFriends_6: View {
                                     .padding(.trailing, 180)
                             }
                             HStack{
-                                Image("23")
+                                Image("LetsBeFriends_23")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
                                     .shadow(radius: 20)
                                     .padding(.leading, 80)
-                                Image("24")
+                                Image("LetsBeFriends_24")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -73,7 +73,7 @@ struct letsBeFriends_6: View {
                 letsBeFriends_5()
             }
             else if  watchStoryIsClicked{
-                watchStory()
+                WatchStory_LetsBeFriends()
             }
         }
         .padding()

@@ -25,13 +25,13 @@ struct letsBeFriends_1: View {
                             .shadow(radius: 10)
                         VStack{
                             HStack{
-                                Image("1")
+                                Image("LetsBeFriends_1")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
                                     .shadow(radius: 20)
                                     .padding(.leading, 80)
-                                Image("2")
+                                Image("LetsBeFriends_2")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -39,13 +39,13 @@ struct letsBeFriends_1: View {
                                     .padding(.trailing, 80)
                             }
                             HStack{
-                                Image("3")
+                                Image("LetsBeFriends_3")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
                                     .shadow(radius: 20)
                                     .padding(.leading, 80)
-                                Image("4")
+                                Image("LetsBeFriends_4")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -82,9 +82,10 @@ struct letsBeFriends_1: View {
                     letsBeFriends_2()
                 }
                 else if  watchStoryIsClicked{
-                    watchStory()
+                    WatchStory_LetsBeFriends()
                 }
             }
+            .padding()
             .navigationBarItems(leading:
                                     Button(action: {
                 self.isShowingDetailView.toggle()

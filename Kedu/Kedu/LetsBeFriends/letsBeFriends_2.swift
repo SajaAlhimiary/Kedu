@@ -18,12 +18,6 @@ struct letsBeFriends_2: View {
             ZStack {
                 Image("Background")
                 VStack{
-                    //                HStack{
-                    //                    Image("Back").resizable()
-                    //                        .frame(width: 100, height: 100)
-                    //                        .shadow(radius: 10)
-                    //                    Image(systemName: "settings")
-                    //                }
                     HStack{
                         Button("〈 ", action: {previousIsClicked = true})
                             .font(.system(size: 64))
@@ -31,13 +25,13 @@ struct letsBeFriends_2: View {
                             .shadow(radius: 10)
                         VStack{
                             HStack{
-                                Image("5")
+                                Image("LetsBeFriends_5")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
                                     .shadow(radius: 20)
                                     .padding(.leading, 80)
-                                Image("6")
+                                Image("LetsBeFriends_6")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -45,13 +39,13 @@ struct letsBeFriends_2: View {
                                     .padding(.trailing, 80)
                             }
                             HStack{
-                                Image("7")
+                                Image("LetsBeFriends_7")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
                                     .shadow(radius: 20)
                                     .padding(.leading, 80)
-                                Image("8")
+                                Image("LetsBeFriends_8")
                                     .resizable()
                                     .frame(width: 450, height: 300)
                                     .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -61,7 +55,6 @@ struct letsBeFriends_2: View {
                         }
                         Button(" 〉", action: {
                             nextIsClicked = true
-                            print("i am in letsBeFriends_3")
                         })
                         .font(.system(size: 64))
                         .foregroundColor(.gray)
@@ -93,7 +86,7 @@ struct letsBeFriends_2: View {
                     
                 }
                 else if  watchStoryIsClicked{
-                    watchStory()
+                    WatchStory_LetsBeFriends()
                 }
             }
         .padding()

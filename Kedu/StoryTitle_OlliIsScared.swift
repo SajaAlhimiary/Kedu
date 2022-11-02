@@ -1,13 +1,13 @@
 //
-//  StoryTitlePage.swift
+//  StoryTitle.swift
 //  Kedu
 //
-//  Created by Saja Alhimiary on 30/10/2022.
+//  Created by Saja Alhimiary on 02/11/2022.
 //
 
 import SwiftUI
 
-struct StoryTitlePage_letsBeFriends: View {
+struct StoryTitle_OlliIsScared: View {
     @State private var nextIsClicked = false
     @State private var watchStoryIsClicked = false
     @State private var isShowingDetailView = false
@@ -17,7 +17,7 @@ struct StoryTitlePage_letsBeFriends: View {
                 Image("Background")
                 VStack{
                     HStack{
-                        Image("LetsBeFriends_Title")
+                        Image("OlliIsScared_Title")
                             .resizable()
                             .frame(width: 900, height: 600)
                             .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -50,10 +50,10 @@ struct StoryTitlePage_letsBeFriends: View {
                
             }
             if nextIsClicked{
-                letsBeFriends_1()
+                Page1_OlliIsScared()
             }
             if watchStoryIsClicked{
-                WatchStory_LetsBeFriends()
+                WatchStory_OlliIsScared()
             }
         }
             .padding()
@@ -69,15 +69,15 @@ struct StoryTitlePage_letsBeFriends: View {
                 }.padding(.top,100)
             )
             .navigationDestination(isPresented: $isShowingDetailView, destination: {
-                StoryTitlePage_letsBeFriends()
+                StoryTitle_OlliIsScared()
                 })
             .padding()
         }.navigationViewStyle(.stack)
     }
 }
 
-struct StoryTitlePage_letsBeFriends_Previews: PreviewProvider {
+struct StoryTitle_OlliIsScared_Previews: PreviewProvider {
     static var previews: some View {
-        StoryTitlePage_letsBeFriends()
+        StoryTitle_OlliIsScared()
     }
 }

@@ -11,7 +11,8 @@ import SwiftUI
 struct KeduApp: App {
     var body: some Scene {
         WindowGroup {
-            StoryTitlePage_letsBeFriends()
+//            StoryTitlePage_letsBeFriends()
+            StoryTitle_OlliIsScared()
         }
     }
 }
