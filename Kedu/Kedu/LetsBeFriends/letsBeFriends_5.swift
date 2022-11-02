@@ -11,16 +11,13 @@ struct letsBeFriends_5: View {
     @State private var previousIsClicked = false
     @State private var nextIsClicked = false
     @State private var watchStoryIsClicked = false
+    @State private var isShowingDetailView = false
+
     var body: some View {
+        NavigationStack{
         ZStack {
             Image("Background")
             VStack{
-//                HStack{
-//                    Image("Back").resizable()
-//                        .frame(width: 100, height: 100)
-//                        .shadow(radius: 10)
-//                    Image(systemName: "settings")
-//                }
                     HStack{
                         Button("〈 ", action: {previousIsClicked = true})
                             .font(.system(size: 64))
@@ -89,6 +86,22 @@ struct letsBeFriends_5: View {
             }
         }
         .padding()
+        .navigationBarItems(leading:
+                                Button(action: {
+            self.isShowingDetailView.toggle()
+//                print("hello")
+            })
+            {
+            Image("Back").resizable()
+                .frame(width: 100, height: 100 )
+                .shadow(radius : 20)
+            }.padding(.top,100)
+        )
+        .navigationDestination(isPresented: $isShowingDetailView, destination: {
+            StoryTitlePage_letsBeFriends()
+            })
+        .padding()
+    }.navigationViewStyle(.stack)
     }
 }
 

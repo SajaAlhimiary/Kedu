@@ -10,6 +10,7 @@ import SwiftUI
 struct StoryTitlePage_letsBeFriends: View {
     @State private var nextIsClicked = false
     @State private var watchStoryIsClicked = false
+    @State private var isShowingDetailView = false
     var body: some View {
         ZStack{
             Image("Background")

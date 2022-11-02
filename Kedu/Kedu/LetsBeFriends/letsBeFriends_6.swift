@@ -10,16 +10,13 @@ import SwiftUI
 struct letsBeFriends_6: View {
     @State private var previousIsClicked = false
     @State private var watchStoryIsClicked = false
+    @State private var isShowingDetailView = false
+
     var body: some View {
-        ZStack {
-            Image("Background")
-            VStack{
-//                HStack{
-//                    Image("Back").resizable()
-//                        .frame(width: 100, height: 100)
-//                        .shadow(radius: 10)
-//                    Image(systemName: "settings")
-//                }
+        NavigationStack{
+            ZStack {
+                Image("Background")
+                VStack{
                     HStack{
                         Button("〈 ", action: {previousIsClicked = true})
                             .font(.system(size: 64))
@@ -80,6 +77,22 @@ struct letsBeFriends_6: View {
             }
         }
         .padding()
+        .navigationBarItems(leading:
+                                Button(action: {
+            self.isShowingDetailView.toggle()
+//                print("hello")
+            })
+            {
+            Image("Back").resizable()
+                .frame(width: 100, height: 100 )
+                .shadow(radius : 20)
+            }.padding(.top,100)
+        )
+        .navigationDestination(isPresented: $isShowingDetailView, destination: {
+            StoryTitlePage_letsBeFriends()
+            })
+        .padding()
+    }.navigationViewStyle(.stack)
     }
 }
 

@@ -11,31 +11,24 @@ import WebKit
 
 struct watchStory: View {
     @State private var readStoryIsClicked = false
+    @State private var isShowingDetailView = false
+
     var body: some View {
-        ZStack(alignment: .center){
-            Image("Background")
-            VStack{
-//                HStack{
-//                    Image("Back").resizable()
-//                        .frame(width: 100, height: 100)
-//                        .shadow(radius: 10)
-//                    Image(systemName: "settings")
-//                }
-                HStack{
-//                    Button("〈 ", action: {})
-//                        .font(.system(size: 64))
-//                        .foregroundColor(.gray)
-//                        .shadow(radius: 10)
-                    VStack{
-                        HStack{
-                            VStack{
-                                EmbedView(videoID: "OITg-bwlXe0")
-                                    .frame(width: 1000, height: 700, alignment: .leading)
-                                    .clipShape(RoundedRectangle(cornerRadius: 20))
-                                    .shadow(radius: 20)
+        NavigationStack{
+            ZStack(alignment: .center){
+                Image("Background")
+                VStack{
+                    HStack{
+                        VStack{
+                            HStack{
+                                VStack{
+                                    EmbedView(videoID: "OITg-bwlXe0")
+                                        .frame(width: 1000, height: 700, alignment: .leading)
+                                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                                        .shadow(radius: 20)
+                                        }
+                                    }
                             }
-                        }
-                    }
 //                    VideoPlayer(player: AVPlayer(url: URL(string: "https://www.youtube.com/embed/OITg-bwlXe0")!))
 //                        .frame(width: 400, height: 400)
 //                        .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -68,6 +61,22 @@ struct watchStory: View {
             }
         }
         .padding()
+        .navigationBarItems(leading:
+                                Button(action: {
+            self.isShowingDetailView.toggle()
+//                print("hello")
+            })
+            {
+            Image("Back").resizable()
+                .frame(width: 100, height: 100 )
+                .shadow(radius : 20)
+            }.padding(.top,100)
+        )
+        .navigationDestination(isPresented: $isShowingDetailView, destination: {
+            StoryTitlePage_letsBeFriends()
+            })
+        .padding()
+    }.navigationViewStyle(.stack)
     }
 }
 
