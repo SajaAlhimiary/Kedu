@@ -12,7 +12,8 @@ struct KeduApp: App {
     var body: some Scene {
         WindowGroup {
 //            StoryTitlePage_letsBeFriends()
-            StoryTitle_OlliIsScared()
+//            StoryTitle_OlliIsScared()
+            StoryTitle_YourMagicLight()
         }
     }
 }

@@ -17,7 +17,7 @@ struct StoryTitle_YourMagicLight: View {
                 Image("Background")
                 VStack{
                     HStack{
-                        Image("OlliIsScared_Title")
+                        Image("Title_YourMagicLight")
                             .resizable()
                             .frame(width: 900, height: 600)
                             .clipShape(RoundedRectangle(cornerRadius: 20))

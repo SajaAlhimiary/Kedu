@@ -1,13 +1,13 @@
 //
-//  Page1.swift
+//  Page2_YourMagicLight.swift
 //  Kedu
 //
-//  Created by Saja Alhimiary on 02/11/2022.
+//  Created by Saja Alhimiary on 03/11/2022.
 //
 
 import SwiftUI
 
-struct Page1_YourMagicLight: View {
+struct Page16_YourMagicLight: View {
     @State private var nextIsClicked = false
     @State private var previousIsClicked = false
     @State private var watchStoryIsClicked = false
@@ -23,13 +23,13 @@ struct Page1_YourMagicLight: View {
                             .font(.system(size: 64))
                             .foregroundColor(.gray)
                             .shadow(radius: 10)
-                        Image("YourMagicLight_1")
+                        Image("YourMagicLight_31")
                             .resizable()
                             .frame(width: 500, height: 600)
                             .clipShape(RoundedRectangle(cornerRadius: 20))
                             .shadow(radius: 20)
                             .padding(.leading, 80)
-                        Image("YourMagicLight_2")
+                        Image("YourMagicLight_32")
                             .resizable()
                             .frame(width: 500, height: 600)
                             .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -58,10 +58,10 @@ struct Page1_YourMagicLight: View {
                         
                     }
                     if previousIsClicked{
-                        StoryTitle_YourMagicLight()
+                        Page15_YourMagicLight()
                     }
                     if nextIsClicked{
-                        Page2_YourMagicLight()
+                        Page17_YourMagicLight()
                     }
                     else if watchStoryIsClicked{
                         WatchStory_YourMagicLight()
@@ -85,10 +85,10 @@ struct Page1_YourMagicLight: View {
 //                .padding()
 //            }.navigationViewStyle(.stack)
         }
-    }
+}
 
-struct Page1_YourMagicLight_Previews: PreviewProvider {
+struct Page16_YourMagicLight_Previews: PreviewProvider {
     static var previews: some View {
-        Page1_YourMagicLight()
+        Page16_YourMagicLight()
     }
 }
