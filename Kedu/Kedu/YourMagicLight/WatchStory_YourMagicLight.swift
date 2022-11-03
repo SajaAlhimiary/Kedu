@@ -1,20 +1,19 @@
 //
-//  watchStory.swift
+//  WatchStory(OlliIsScared).swift
 //  Kedu
 //
-//  Created by Saja Alhimiary on 31/10/2022.
+//  Created by Saja Alhimiary on 02/11/2022.
 //
 
 import SwiftUI
-//import AVKit
 import WebKit
 
-struct WatchStory_LetsBeFriends: View {
+struct WatchStory_YourMagicLight: View {
     @State private var readStoryIsClicked = false
     @State private var isShowingDetailView = false
 
     var body: some View {
-//        NavigationStack{
+        NavigationStack{
             ZStack(alignment: .center){
                 Image("Background")
                 VStack{
@@ -22,7 +21,7 @@ struct WatchStory_LetsBeFriends: View {
                         VStack{
                             HStack{
                                 VStack{
-                                    EmbedView(videoID: "OITg-bwlXe0")
+                                    EmbedView(videoID: "yYDRKoZO1FM")
                                         .frame(width: 1000, height: 700, alignment: .leading)
                                         .clipShape(RoundedRectangle(cornerRadius: 20))
                                         .shadow(radius: 20)
@@ -57,43 +56,43 @@ struct WatchStory_LetsBeFriends: View {
                 }
             }
             if readStoryIsClicked{
-                StoryTitlePage_letsBeFriends()
+                StoryTitle_YourMagicLight()
             }
         }
         .padding()
-//        .navigationBarItems(leading:
-//                                Button(action: {
-//            self.isShowingDetailView.toggle()
-////                print("hello")
-//            })
-//            {
-//            Image("Back").resizable()
-//                .frame(width: 100, height: 100 )
-//                .shadow(radius : 20)
-//            }.padding(.top,100)
-//        )
-//        .navigationDestination(isPresented: $isShowingDetailView, destination: {
-//            StoryTitlePage_letsBeFriends()
-//            })
-//        .padding()
-//    }.navigationViewStyle(.stack)
+        .navigationBarItems(leading:
+                                Button(action: {
+            self.isShowingDetailView.toggle()
+//                print("hello")
+            })
+            {
+            Image("Back").resizable()
+                .frame(width: 100, height: 100 )
+                .shadow(radius : 20)
+            }.padding(.top,100)
+        )
+        .navigationDestination(isPresented: $isShowingDetailView, destination: {
+            StoryTitle_YourMagicLight()
+            })
+        .padding()
+    }.navigationViewStyle(.stack)
     }
 }
 
-struct WatchStory_LetsBeFriends_Previews: PreviewProvider {
+struct WatchStory_YourMagicLight_Previews: PreviewProvider {
     static var previews: some View {
-        WatchStory_LetsBeFriends()
+        WatchStory_YourMagicLight()
     }
 }
 
-struct EmbedView : UIViewRepresentable{
-    let videoID : String
-    func makeUIView(context: Context) -> WKWebView {
-        return WKWebView()
-    }
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        guard let youtubeURL = URL(string: "https://www.youtube.com/embed/\(videoID)") else { return }
-        uiView.scrollView.isScrollEnabled = false
-        uiView.load(URLRequest(url: youtubeURL))
-    }
-}
+//struct EmbedView: UIViewRepresentable{
+//    let videoID: String
+//    func makeUIView(context: Context) -> WKWebView {
+//        return WKWebView()
+//    }
+//    func updateUIView(_ uiView: WKWebView, context: Context) {
+//        guard let youtubeURL = URL(string: "https://www.youtube.com/embed/\(videoID)") else { return }
+//        uiView.scrollView.isScrollEnabled = false
+//        uiView.load(URLRequest(url: youtubeURL))
+//    }
+//}
