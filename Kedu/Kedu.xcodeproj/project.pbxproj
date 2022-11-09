@@ -37,6 +37,17 @@
 		56C51BD929158EEA003435D9 /* About_us.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C51BD829158EEA003435D9 /* About_us.swift */; };
 		56ED080A2912D9C4006176D6 /* Game2Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ED08092912D9C4006176D6 /* Game2Screen2.swift */; };
 		56ED080C2912D9E5006176D6 /* Game1Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ED080B2912D9E5006176D6 /* Game1Screen.swift */; };
+		56FA898E291B9A7300E68A77 /* Page1_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA898D291B9A7300E68A77 /* Page1_YourMagicLight.swift */; };
+		56FA8990291B9ABA00E68A77 /* Page5_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA898F291B9ABA00E68A77 /* Page5_YourMagicLight.swift */; };
+		56FA8992291B9AD200E68A77 /* Page6_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8991291B9AD200E68A77 /* Page6_YourMagicLight.swift */; };
+		56FA8994291B9AFB00E68A77 /* Page7_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8993291B9AFB00E68A77 /* Page7_YourMagicLight.swift */; };
+		56FA8996291B9B1000E68A77 /* Page10_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8995291B9B1000E68A77 /* Page10_YourMagicLight.swift */; };
+		56FA8998291B9B3C00E68A77 /* Page11_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8997291B9B3C00E68A77 /* Page11_YourMagicLight.swift */; };
+		56FA899A291B9B5300E68A77 /* Page12_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA8999291B9B5300E68A77 /* Page12_YourMagicLight.swift */; };
+		56FA899C291B9B6200E68A77 /* Page16_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA899B291B9B6200E68A77 /* Page16_YourMagicLight.swift */; };
+		56FA899E291B9B8400E68A77 /* Page17_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA899D291B9B8400E68A77 /* Page17_YourMagicLight.swift */; };
+		56FA89A0291B9B9600E68A77 /* Page18_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA899F291B9B9600E68A77 /* Page18_YourMagicLight.swift */; };
+		56FA89A2291B9BA300E68A77 /* StoryTitle_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA89A1291B9BA300E68A77 /* StoryTitle_YourMagicLight.swift */; };
 		A57CC8632916FB6B00E74BE3 /* CardSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8622916FB6B00E74BE3 /* CardSwap.swift */; };
 		A57CC8652916FB7700E74BE3 /* KeduSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8642916FB7700E74BE3 /* KeduSettings.swift */; };
 		A57CC86B2916FD9200E74BE3 /* Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC86A2916FD9200E74BE3 /* Achievements.swift */; };
@@ -59,28 +70,17 @@
 		A57CC8DC2916FF0000E74BE3 /* Page4_OlliIsScared.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8C32916FF0000E74BE3 /* Page4_OlliIsScared.swift */; };
 		A57CC8DD2916FF0000E74BE3 /* Page8_OlliIsScared.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8AF2916FEFF00E74BE3 /* Page8_OlliIsScared.swift */; };
 		A57CC8DE2916FF0000E74BE3 /* Page9_OlliIsScared.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8AD2916FEFF00E74BE3 /* Page9_OlliIsScared.swift */; };
-		A57CC8FC2916FFED00E74BE3 /* StoryTitle_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8E52916FFEA00E74BE3 /* StoryTitle_YourMagicLight.swift */; };
-		A57CC8FD2916FFED00E74BE3 /* Page16_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8E62916FFEB00E74BE3 /* Page16_YourMagicLight.swift */; };
-		A57CC8FE2916FFED00E74BE3 /* Page6_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8E72916FFEB00E74BE3 /* Page6_YourMagicLight.swift */; };
 		A57CC8FF2916FFED00E74BE3 /* Page2_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8E82916FFEB00E74BE3 /* Page2_YourMagicLight.swift */; };
-		A57CC9002916FFED00E74BE3 /* Page12_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8E92916FFEB00E74BE3 /* Page12_YourMagicLight.swift */; };
-		A57CC9012916FFED00E74BE3 /* Page10_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8EA2916FFEB00E74BE3 /* Page10_YourMagicLight.swift */; };
-		A57CC9022916FFED00E74BE3 /* Page17_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8EB2916FFEB00E74BE3 /* Page17_YourMagicLight.swift */; };
 		A57CC9032916FFED00E74BE3 /* Page20_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8EC2916FFEB00E74BE3 /* Page20_YourMagicLight.swift */; };
-		A57CC9042916FFED00E74BE3 /* Page7_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8ED2916FFEB00E74BE3 /* Page7_YourMagicLight.swift */; };
 		A57CC9052916FFED00E74BE3 /* Page9_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8EE2916FFEB00E74BE3 /* Page9_YourMagicLight.swift */; };
 		A57CC9062916FFED00E74BE3 /* Page13_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8EF2916FFEC00E74BE3 /* Page13_YourMagicLight.swift */; };
-		A57CC9072916FFED00E74BE3 /* Page11_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F02916FFEC00E74BE3 /* Page11_YourMagicLight.swift */; };
 		A57CC9082916FFED00E74BE3 /* Page3_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F12916FFEC00E74BE3 /* Page3_YourMagicLight.swift */; };
 		A57CC9092916FFED00E74BE3 /* Page19_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F22916FFEC00E74BE3 /* Page19_YourMagicLight.swift */; };
 		A57CC90A2916FFED00E74BE3 /* Page14_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F32916FFEC00E74BE3 /* Page14_YourMagicLight.swift */; };
-		A57CC90B2916FFED00E74BE3 /* Page1_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F42916FFEC00E74BE3 /* Page1_YourMagicLight.swift */; };
 		A57CC90C2916FFED00E74BE3 /* WatchStory_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F52916FFEC00E74BE3 /* WatchStory_YourMagicLight.swift */; };
 		A57CC90D2916FFED00E74BE3 /* Page8_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F62916FFEC00E74BE3 /* Page8_YourMagicLight.swift */; };
 		A57CC90E2916FFED00E74BE3 /* Page15_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F72916FFEC00E74BE3 /* Page15_YourMagicLight.swift */; };
 		A57CC90F2916FFED00E74BE3 /* Page4_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F82916FFED00E74BE3 /* Page4_YourMagicLight.swift */; };
-		A57CC9102916FFED00E74BE3 /* Page18_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8F92916FFED00E74BE3 /* Page18_YourMagicLight.swift */; };
-		A57CC9112916FFED00E74BE3 /* Page5_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8FA2916FFED00E74BE3 /* Page5_YourMagicLight.swift */; };
 		A57CC9122916FFED00E74BE3 /* Page21_YourMagicLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CC8FB2916FFED00E74BE3 /* Page21_YourMagicLight.swift */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +136,17 @@
 		56C51BD829158EEA003435D9 /* About_us.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_us.swift; sourceTree = "<group>"; };
 		56ED08092912D9C4006176D6 /* Game2Screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2Screen2.swift; sourceTree = "<group>"; };
 		56ED080B2912D9E5006176D6 /* Game1Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1Screen.swift; sourceTree = "<group>"; };
+		56FA898D291B9A7300E68A77 /* Page1_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA898F291B9ABA00E68A77 /* Page5_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page5_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA8991291B9AD200E68A77 /* Page6_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page6_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA8993291B9AFB00E68A77 /* Page7_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page7_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA8995291B9B1000E68A77 /* Page10_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page10_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA8997291B9B3C00E68A77 /* Page11_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page11_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA8999291B9B5300E68A77 /* Page12_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page12_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA899B291B9B6200E68A77 /* Page16_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page16_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA899D291B9B8400E68A77 /* Page17_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page17_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA899F291B9B9600E68A77 /* Page18_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page18_YourMagicLight.swift; sourceTree = "<group>"; };
+		56FA89A1291B9BA300E68A77 /* StoryTitle_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTitle_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8622916FB6B00E74BE3 /* CardSwap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSwap.swift; sourceTree = "<group>"; };
 		A57CC8642916FB7700E74BE3 /* KeduSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeduSettings.swift; sourceTree = "<group>"; };
 		A57CC86A2916FD9200E74BE3 /* Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievements.swift; sourceTree = "<group>"; };
@@ -158,28 +169,17 @@
 		A57CC8C12916FF0000E74BE3 /* Page3_OlliIsScared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3_OlliIsScared.swift; sourceTree = "<group>"; };
 		A57CC8C32916FF0000E74BE3 /* Page4_OlliIsScared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4_OlliIsScared.swift; sourceTree = "<group>"; };
 		A57CC8C62916FF0000E74BE3 /* Page2_OlliIsScared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2_OlliIsScared.swift; sourceTree = "<group>"; };
-		A57CC8E52916FFEA00E74BE3 /* StoryTitle_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryTitle_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/StoryTitle_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8E62916FFEB00E74BE3 /* Page16_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page16_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page16_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8E72916FFEB00E74BE3 /* Page6_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page6_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page6_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8E82916FFEB00E74BE3 /* Page2_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8E92916FFEB00E74BE3 /* Page12_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page12_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page12_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8EA2916FFEB00E74BE3 /* Page10_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page10_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page10_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8EB2916FFEB00E74BE3 /* Page17_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page17_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page17_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8EC2916FFEB00E74BE3 /* Page20_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page20_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8ED2916FFEB00E74BE3 /* Page7_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page7_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page7_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8EE2916FFEB00E74BE3 /* Page9_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page9_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8EF2916FFEC00E74BE3 /* Page13_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page13_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8F02916FFEC00E74BE3 /* Page11_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page11_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page11_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8F12916FFEC00E74BE3 /* Page3_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page3_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8F22916FFEC00E74BE3 /* Page19_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page19_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8F32916FFEC00E74BE3 /* Page14_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page14_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8F42916FFEC00E74BE3 /* Page1_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page1_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page1_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8F52916FFEC00E74BE3 /* WatchStory_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchStory_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8F62916FFEC00E74BE3 /* Page8_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page8_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8F72916FFEC00E74BE3 /* Page15_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page15_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8F82916FFED00E74BE3 /* Page4_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page4_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8F92916FFED00E74BE3 /* Page18_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page18_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page18_YourMagicLight.swift; sourceTree = "<group>"; };
-		A57CC8FA2916FFED00E74BE3 /* Page5_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page5_YourMagicLight.swift; path = ../../../../../../Documents/XCode/Kedu/Kedu/Kedu/YourMagicLight/Page5_YourMagicLight.swift; sourceTree = "<group>"; };
 		A57CC8FB2916FFED00E74BE3 /* Page21_YourMagicLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page21_YourMagicLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -351,28 +351,28 @@
 		A57CC8E32916FF1400E74BE3 /* YourMagicLight */ = {
 			isa = PBXGroup;
 			children = (
-				A57CC8F42916FFEC00E74BE3 /* Page1_YourMagicLight.swift */,
+				56FA89A1291B9BA300E68A77 /* StoryTitle_YourMagicLight.swift */,
+				56FA899F291B9B9600E68A77 /* Page18_YourMagicLight.swift */,
+				56FA899D291B9B8400E68A77 /* Page17_YourMagicLight.swift */,
+				56FA899B291B9B6200E68A77 /* Page16_YourMagicLight.swift */,
+				56FA8999291B9B5300E68A77 /* Page12_YourMagicLight.swift */,
+				56FA8997291B9B3C00E68A77 /* Page11_YourMagicLight.swift */,
+				56FA8995291B9B1000E68A77 /* Page10_YourMagicLight.swift */,
+				56FA8993291B9AFB00E68A77 /* Page7_YourMagicLight.swift */,
+				56FA8991291B9AD200E68A77 /* Page6_YourMagicLight.swift */,
+				56FA898F291B9ABA00E68A77 /* Page5_YourMagicLight.swift */,
+				56FA898D291B9A7300E68A77 /* Page1_YourMagicLight.swift */,
 				A57CC8E82916FFEB00E74BE3 /* Page2_YourMagicLight.swift */,
 				A57CC8F12916FFEC00E74BE3 /* Page3_YourMagicLight.swift */,
 				A57CC8F82916FFED00E74BE3 /* Page4_YourMagicLight.swift */,
-				A57CC8FA2916FFED00E74BE3 /* Page5_YourMagicLight.swift */,
-				A57CC8E72916FFEB00E74BE3 /* Page6_YourMagicLight.swift */,
-				A57CC8ED2916FFEB00E74BE3 /* Page7_YourMagicLight.swift */,
 				A57CC8F62916FFEC00E74BE3 /* Page8_YourMagicLight.swift */,
 				A57CC8EE2916FFEB00E74BE3 /* Page9_YourMagicLight.swift */,
-				A57CC8EA2916FFEB00E74BE3 /* Page10_YourMagicLight.swift */,
-				A57CC8F02916FFEC00E74BE3 /* Page11_YourMagicLight.swift */,
-				A57CC8E92916FFEB00E74BE3 /* Page12_YourMagicLight.swift */,
 				A57CC8EF2916FFEC00E74BE3 /* Page13_YourMagicLight.swift */,
 				A57CC8F32916FFEC00E74BE3 /* Page14_YourMagicLight.swift */,
 				A57CC8F72916FFEC00E74BE3 /* Page15_YourMagicLight.swift */,
-				A57CC8E62916FFEB00E74BE3 /* Page16_YourMagicLight.swift */,
-				A57CC8EB2916FFEB00E74BE3 /* Page17_YourMagicLight.swift */,
-				A57CC8F92916FFED00E74BE3 /* Page18_YourMagicLight.swift */,
 				A57CC8F22916FFEC00E74BE3 /* Page19_YourMagicLight.swift */,
 				A57CC8EC2916FFEB00E74BE3 /* Page20_YourMagicLight.swift */,
 				A57CC8FB2916FFED00E74BE3 /* Page21_YourMagicLight.swift */,
-				A57CC8E52916FFEA00E74BE3 /* StoryTitle_YourMagicLight.swift */,
 				A57CC8F52916FFEC00E74BE3 /* WatchStory_YourMagicLight.swift */,
 			);
 			path = YourMagicLight;
@@ -564,17 +564,17 @@
 				A57CC90E2916FFED00E74BE3 /* Page15_YourMagicLight.swift in Sources */,
 				A57CC8CB2916FF0000E74BE3 /* Page2_OlliIsScared.swift in Sources */,
 				A57CC86B2916FD9200E74BE3 /* Achievements.swift in Sources */,
-				A57CC8FD2916FFED00E74BE3 /* Page16_YourMagicLight.swift in Sources */,
 				A57CC8652916FB7700E74BE3 /* KeduSettings.swift in Sources */,
-				A57CC9112916FFED00E74BE3 /* Page5_YourMagicLight.swift in Sources */,
+				56FA8996291B9B1000E68A77 /* Page10_YourMagicLight.swift in Sources */,
 				56C51BD929158EEA003435D9 /* About_us.swift in Sources */,
+				56FA899E291B9B8400E68A77 /* Page17_YourMagicLight.swift in Sources */,
 				A57CC8D12916FF0000E74BE3 /* StoryTitle_OlliIsScared.swift in Sources */,
 				A57CC8782916FE6A00E74BE3 /* StoryTitlePage_letsBeFriends.swift in Sources */,
-				A57CC9042916FFED00E74BE3 /* Page7_YourMagicLight.swift in Sources */,
 				561964E72912675700D17F91 /* String+ToArray.swift in Sources */,
 				A57CC8DB2916FF0000E74BE3 /* Page6_OlliIsScared.swift in Sources */,
 				561964F02912678D00D17F91 /* ThemeCollection.swift in Sources */,
 				A57CC9082916FFED00E74BE3 /* Page3_YourMagicLight.swift in Sources */,
+				56FA899A291B9B5300E68A77 /* Page12_YourMagicLight.swift in Sources */,
 				A57CC87C2916FE6A00E74BE3 /* letsBeFriends_1.swift in Sources */,
 				561964E92912675700D17F91 /* Array+Only.swift in Sources */,
 				561964EA2912675700D17F91 /* Int+RandomExcludingSome.swift in Sources */,
@@ -583,47 +583,47 @@
 				A57CC8772916FE6A00E74BE3 /* letsBeFriends_6.swift in Sources */,
 				561C004B29152249003720E5 /* RegestrationView.swift in Sources */,
 				A57CC8CC2916FF0000E74BE3 /* Page1_OlliIsScared.swift in Sources */,
-				A57CC9102916FFED00E74BE3 /* Page18_YourMagicLight.swift in Sources */,
 				56B488DF290C18FA00E463CB /* LogoScreen.swift in Sources */,
 				A57CC8762916FE6A00E74BE3 /* letsBeFriends_2.swift in Sources */,
 				A57CC8792916FE6A00E74BE3 /* letsBeFriends_5.swift in Sources */,
-				A57CC9022916FFED00E74BE3 /* Page17_YourMagicLight.swift in Sources */,
 				A57CC8FF2916FFED00E74BE3 /* Page2_YourMagicLight.swift in Sources */,
 				56ED080C2912D9E5006176D6 /* Game1Screen.swift in Sources */,
 				561964F729126CE300D17F91 /* ThemeCollectionManager.swift in Sources */,
+				56FA899C291B9B6200E68A77 /* Page16_YourMagicLight.swift in Sources */,
+				56FA898E291B9A7300E68A77 /* Page1_YourMagicLight.swift in Sources */,
 				A57CC8DA2916FF0000E74BE3 /* Page7_OlliIsScared.swift in Sources */,
 				A57CC9032916FFED00E74BE3 /* Page20_YourMagicLight.swift in Sources */,
 				A57CC87A2916FE6A00E74BE3 /* letsBeFriends_3.swift in Sources */,
 				A57CC90D2916FFED00E74BE3 /* Page8_YourMagicLight.swift in Sources */,
 				A57CC9052916FFED00E74BE3 /* Page9_YourMagicLight.swift in Sources */,
 				561964E02912673B00D17F91 /* Grid.swift in Sources */,
+				56FA8990291B9ABA00E68A77 /* Page5_YourMagicLight.swift in Sources */,
+				56FA89A0291B9B9600E68A77 /* Page18_YourMagicLight.swift in Sources */,
 				561C00492915221D003720E5 /* MainView.swift in Sources */,
 				56ED080A2912D9C4006176D6 /* Game2Screen2.swift in Sources */,
 				561DF6BD2913B62E007EF9B4 /* UIColor+RGBA.swift in Sources */,
 				561DF6BF2913B8EC007EF9B4 /* ChooseStoryScreen.swift in Sources */,
-				A57CC8FE2916FFED00E74BE3 /* Page6_YourMagicLight.swift in Sources */,
-				A57CC9002916FFED00E74BE3 /* Page12_YourMagicLight.swift in Sources */,
-				A57CC9072916FFED00E74BE3 /* Page11_YourMagicLight.swift in Sources */,
 				561964EE2912675D00D17F91 /* DefaultThemes.swift in Sources */,
 				A57CC87D2916FE6A00E74BE3 /* letsBeFriends_4.swift in Sources */,
 				561964DE2912673B00D17F91 /* Cardify.swift in Sources */,
 				567A3FE729098A2B005DA2F9 /* KeduApp.swift in Sources */,
 				561964A5290F88CC00D17F91 /* Game2Screen.swift in Sources */,
 				A57CC8632916FB6B00E74BE3 /* CardSwap.swift in Sources */,
-				A57CC9012916FFED00E74BE3 /* Page10_YourMagicLight.swift in Sources */,
-				A57CC8FC2916FFED00E74BE3 /* StoryTitle_YourMagicLight.swift in Sources */,
+				56FA8992291B9AD200E68A77 /* Page6_YourMagicLight.swift in Sources */,
 				A57CC9122916FFED00E74BE3 /* Page21_YourMagicLight.swift in Sources */,
 				A57CC8DC2916FF0000E74BE3 /* Page4_OlliIsScared.swift in Sources */,
+				56FA8998291B9B3C00E68A77 /* Page11_YourMagicLight.swift in Sources */,
+				56FA89A2291B9BA300E68A77 /* StoryTitle_YourMagicLight.swift in Sources */,
 				A57CC8D22916FF0000E74BE3 /* WatchStory_OlliIsScared.swift in Sources */,
 				561964DF2912673B00D17F91 /* Pie.swift in Sources */,
 				56B43D922915666D0087BAC9 /* ChooseActivityGame.swift in Sources */,
 				A57CC8D02916FF0000E74BE3 /* Page3_OlliIsScared.swift in Sources */,
 				A57CC87B2916FE6A00E74BE3 /* WatchStory_LetsBeFriends.swift in Sources */,
 				A57CC9062916FFED00E74BE3 /* Page13_YourMagicLight.swift in Sources */,
-				A57CC90B2916FFED00E74BE3 /* Page1_YourMagicLight.swift in Sources */,
 				A57CC90C2916FFED00E74BE3 /* WatchStory_YourMagicLight.swift in Sources */,
 				561964E82912675700D17F91 /* Array+Identifiable.swift in Sources */,
 				A57CC8CF2916FF0000E74BE3 /* Page5_OlliIsScared.swift in Sources */,
+				56FA8994291B9AFB00E68A77 /* Page7_YourMagicLight.swift in Sources */,
 				561964DD2912673B00D17F91 /* GridLayout.swift in Sources */,
 				A57CC9092916FFED00E74BE3 /* Page19_YourMagicLight.swift in Sources */,
 				A57CC90F2916FFED00E74BE3 /* Page4_YourMagicLight.swift in Sources */,
