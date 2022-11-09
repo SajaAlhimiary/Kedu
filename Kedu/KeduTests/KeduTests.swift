@@ -2,10 +2,11 @@
 //  KeduTests.swift
 //  KeduTests
 //
-//  Created by Saja Alhimiary on 27/10/2022.
+//  Created by Sara Alhumidi on 01/04/1444 AH.
 //
 
 import XCTest
+@testable import Kedu
 
 final class KeduTests: XCTestCase {
 
@@ -27,7 +28,7 @@ final class KeduTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

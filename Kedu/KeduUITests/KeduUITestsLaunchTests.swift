@@ -2,7 +2,7 @@
 //  KeduUITestsLaunchTests.swift
 //  KeduUITests
 //
-//  Created by Saja Alhimiary on 27/10/2022.
+//  Created by Sara Alhumidi on 01/04/1444 AH.
 //
 
 import XCTest

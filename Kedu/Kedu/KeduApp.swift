@@ -2,7 +2,7 @@
 //  KeduApp.swift
 //  Kedu
 //
-//  Created by Saja Alhimiary on 27/10/2022.
+//  Created by Sara Alhumidi on 01/04/1444 AH.
 //
 
 import SwiftUI
@@ -11,9 +11,7 @@ import SwiftUI
 struct KeduApp: App {
     var body: some Scene {
         WindowGroup {
-//            StoryTitlePage_letsBeFriends()
-//            StoryTitle_OlliIsScared()
-            StoryTitle_YourMagicLight()
+            LogoScreen()
         }
     }
 }
