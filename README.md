@@ -1,9 +1,7 @@
-# KEDU
-
-
-![logo-kedu](https://user-images.githubusercontent.com/81257375/215467820-fe0b87c6-640d-4c13-8f3a-d70936d2e05f.jpg)
-
-
+# KEDU 
+<h3><img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/81257375/215467820-fe0b87c6-640d-4c13-8f3a-d70936d2e05f.jpg">
+  <br><br/>
+  <br><br/>
 
 
 ## Our Big Idea:
