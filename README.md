@@ -1,23 +1,37 @@
-# PositiveVibes
+# KEDU
 
 
-![Icon-App-83 5x83 5@2x](https://user-images.githubusercontent.com/98238090/212410844-8bd230b8-c1de-4a96-a8e8-dff4c654383b.png)
+![logo-kedu](https://user-images.githubusercontent.com/81257375/215467820-fe0b87c6-640d-4c13-8f3a-d70936d2e05f.jpg)
 
 
 
 
 ## Our Big Idea:
-### Inclusion
+### Building characters are essential in the early ages (2-7) of a child’s life, and parents should invest in their child's skills more.Many apps focus on academic learning or fun games while lacking to provide them with the necessary life skills such as confidence and how the deal with bullying and learn from their own mistakes. After days of investigations.we found that many parents agree with us about many apps’ lacks of building characters. Moreover, learning apps for kids are highly engaging and interactive and educational applications are environmentally friendly, and kids love them.
 
 ## The Challenge Statement:
-### Provide daily words of inspiration to motivate people and inspire them to live their best life  and make headway towards their personal goals.
+### The very young children usually super to excited to learn new things and enjoys playing and exploring.The content for most educational apps is everything , so you need to make sure be as accessible and engaging.And what is the important features should be present in interactive learning app ,and how to motivate child to learn.
 
 ## The Solution Concept:
-### A platform for Providing words of encouragement for stressed people who need to be motivated so that they keep being optimistic and be able to accomplish whatever they want to.
+### The **Kedu** **app** is special and unique as it creates space for children to develop their self-esteem, confidence and courage - at home, in school or in the broader community. While we see a lot of children's apps focus on making academic learning fun while failing to provide them with necessary life skills such as confidence building and learning from their own mistakes. Building character is a role part of raising and teaching kids.
+> 
+> 
+> we want to introduce the activities and games.
+> 
+> - building self-confidence
+> - learn to make decisions
+> - by listening and encouraged to talk
+> - Learn by making mistakes and Enhancing working memory.
 
 ## Technologies & Tools:
-### - Swifui
-### - Widgetkit
+**Miro**: for Set goals, track the challenge process.
+
+**Sketch**: was used to work on the prototypes before beginning the work, editing the images and the logo.
+
+**Xcode**: for creating modern applications for iOS,  It has features such as fast build, easy code navigation, and quick
+building.
+
+**GitHub**: platform for version control and collaboration
 
 
 
@@ -25,7 +39,13 @@
 ### 
 
 
-https://user-images.githubusercontent.com/98238090/212405448-f5c64658-d343-4418-b88d-f3008abb3e6f.MP4
+
+
+
+
+https://user-images.githubusercontent.com/81257375/215470706-b7dfcc56-aac6-476e-9118-414556e02daf.mp4
+
+
 
 
 
@@ -33,7 +53,8 @@ https://user-images.githubusercontent.com/98238090/212405448-f5c64658-d343-4418-
 
 
 ## Challenge Summary:
-<img width="1496" alt="Screenshot 2023-01-18 at 10 17 37 AM" src="https://user-images.githubusercontent.com/81257375/213107946-4535fc7c-609a-4180-892f-6eea047e050e.png">
 
+
+<img width="978" alt="Screenshot 2023-01-30 at 2 58 11 PM" src="https://user-images.githubusercontent.com/81257375/215470833-f2f3da7f-e176-4daa-9412-a7abd372bc63.png">
 
 
